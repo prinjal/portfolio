@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12 mt-10">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-heroGradientStart via-heroGradientVia to-heroGradientEnd animate-pulse">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-heroGradientStart via-heroGradientVia to-heroGradientEnd">
               Hello, I'm
             </span>{" "}
             <br />
@@ -37,7 +37,7 @@ const HeroSection = () => {
             <button className="px-8 py-3 rounded-full w-full h-full sm:w-fit sm:h-fit mr-10 bg-white hover:bg-slate-200 text-black">
               Hire Me
             </button>
-            <button className="px-6 py-3 rounded-full w-full h-full sm:w-fit sm:h-fit bg-transperent hover:bg-slate-800 text-white border border-white mt-3">
+            <button className="px-8 py-3 rounded-full w-full h-full sm:w-fit sm:h-fit bg-transperent hover:bg-slate-800 text-white border border-white mt-3">
               Download CV
             </button>
           </div>
