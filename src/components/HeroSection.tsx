@@ -43,11 +43,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full h-[35vh] w-[35vw] relative">
+          <div className="rounded-full lg:h-[35vh] lg:w-[35vw] h-[25vh] w-[25vh] relative">
             <img
               src={image}
               alt="profile image"
-              className="h-[35vh] w-[30vw] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="lg:h-[35vh] lg:w-[30vw] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
         </div>
